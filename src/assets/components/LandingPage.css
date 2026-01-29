@@ -1,0 +1,54 @@
+
+.landing {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 4rem 1rem;
+	background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+	color: #0f172a;
+	font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.lp-header {
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+
+.lp-header h1 {
+	margin: 0 0 0.5rem 0;
+	font-size: 2.25rem;
+	letter-spacing: -0.02em;
+}
+
+.lp-sub {
+	margin: 0 0 1rem 0;
+	color: #334155;
+}
+
+.lp-cta {
+	display: inline-block;
+	background: #6366f1;
+	color: white;
+	padding: 0.6rem 1rem;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.lp-content {
+	width: 100%;
+	max-width: 920px;
+	display: flex;
+	justify-content: center;
+}
+
+.lp-card {
+	background: white;
+	padding: 1.25rem 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+	text-align: center;
+}
+
