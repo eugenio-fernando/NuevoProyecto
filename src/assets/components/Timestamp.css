@@ -1,0 +1,13 @@
+.timestamp {
+  background: #e6f3ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #0066cc;
+}
+
+.timestamp p {
+  margin: 0;
+}

@@ -1,54 +1,73 @@
 
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
 .landing {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 4rem 1rem;
-	background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
-	color: #0f172a;
-	font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* start near top */
+  padding: 2.5rem 1.5rem 4rem;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  color: #0f172a;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  width: 100%;
+  max-width: 760px; /* constrain column width */
+  margin: 0 auto; /* center inside .app-container; .app-container handles top spacing */
+}
+
+.landing h1 {
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+  margin: 0 0 2rem 0;
+  text-align: center;
 }
 
 .lp-header {
-	text-align: center;
-	margin-bottom: 2.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 .lp-header h1 {
-	margin: 0 0 0.5rem 0;
-	font-size: 2.25rem;
-	letter-spacing: -0.02em;
+  margin: 0 0 0.5rem 0;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
 }
 
 .lp-sub {
-	margin: 0 0 1rem 0;
-	color: #334155;
+  margin: 0 0 1rem 0;
+  color: #334155;
 }
 
 .lp-cta {
-	display: inline-block;
-	background: #6366f1;
-	color: white;
-	padding: 0.6rem 1rem;
-	border-radius: 8px;
-	text-decoration: none;
-	font-weight: 600;
+  display: inline-block;
+  background: #6366f1;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .lp-content {
-	width: 100%;
-	max-width: 920px;
-	display: flex;
-	justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .lp-card {
-	background: white;
-	padding: 1.25rem 1.5rem;
-	border-radius: 12px;
-	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
-	text-align: center;
+  background: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  text-align: center;
+  width: 100%;
 }
-
