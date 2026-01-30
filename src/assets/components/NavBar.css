@@ -1,0 +1,94 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  height: 80px; /* Slightly taller for the bigger logo */
+  display: flex;
+  align-items: center;
+  padding: 0; /* inner container handles horizontal padding */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw; /* ensure it spans the full viewport width */
+  z-index: 1000;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* center navbar content within page width */
+.navbar-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px 0 32px; /* larger right gutter so CTA sits away from edge */
+  box-sizing: border-box;
+}
+
+/* BRAND SECTION */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between logo and text */
+}
+
+.logo-img {
+  height: 52px; /* Increased size significantly */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.brand-name {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* LINKS */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-links a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #fff;
+}
+
+/* THE NEW CTA BUTTON */
+.btn-cta {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 12px 32px; /* Increased padding for more "space" */
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.btn-cta:hover {
+  transform: scale(1.05) translateY(-2px);
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
+
+.btn-cta:active {
+  transform: scale(0.98);
+}

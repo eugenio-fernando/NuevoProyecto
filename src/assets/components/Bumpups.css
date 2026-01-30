@@ -1,0 +1,16 @@
+.bumpups {
+  padding: 1rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.bumpups h2 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.bumpups p {
+  margin: 0;
+  color: #666;
+}
