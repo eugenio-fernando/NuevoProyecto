@@ -2,11 +2,13 @@ import './App.css'
 import LandingPage from './assets/components/LandingPage'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <LandingPage />
+    <div className="app-container">
+      <div className="main-content">
+        <LandingPage />
+      </div>
+    </div>
   )
 }
 
-export default App
+export default App;
